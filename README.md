@@ -1,6 +1,9 @@
-# algorithms4th
-算法（第4版）Python实践
+### 总结
 
-[第2章 排序](https://github.com/inscyan/algorithms4th/Sorting)
+选择排序是数据移动最少的，交换次数和数组的大小呈线性关系
 
-[第3章 查找](https://github.com/inscyan/algorithms4th/Searching)
+插入排序对于部分有序的数组十分高效，也很适合小规模数组（可作为高级排序算法的中间过程）
+
+如果稳定性很重要而空间又不是问题，归并排序可能是最好的
+
+快速排序是最快的通用排序算法（三路快排尤其适合包含大量重复元素的场景）
